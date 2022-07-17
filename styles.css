@@ -24,16 +24,21 @@ li {
     list-style: none;
 }
 
-.flex {
+#header {
+    display: flex;
+    justify-content: flex-end;    
+    width: 100%;
+    position: fixed;
+}
+
+#nav-links {
     display: flex;
 }
 
-.flex-column {
+#welcome-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-
-.flex-end {
-    justify-content: flex-end;
-}
-
